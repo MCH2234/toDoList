@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="609a232ab53e413e38d2.css">
-    <script src="9373806ad2109ed82d28.js"></script>
+    <script src="78702c9d1726377a260d.js"></script>
 <script defer src="main.js"></script></head>
 <body>
     <div id="main-container">
 <div id="menu">
-    <button class="btn" id="add">New Project</button>
-    <button class="btn" id="all-tasks">All Tasks</button>
-    <button class="btn" id="today">Today</button>
-    <button class="btn" id="week">Week</button>
+    <div class="btn" id="add">New Project</div>
+    <div class="btn" id="all-tasks">All Tasks</div>
+    <div class="btn" id="today">Today</div>
+    <div class="btn" id="week">Week</div>
+    <div class="btn" id="important">Important</div>
     <div id="allProj">
         <form id="new-projects">
             <input type="text" placeholder="Enter Project Name" id="name-new-project">
@@ -35,7 +36,7 @@
          <label for="details">Details:</label>
          <input type="text" id="details">
          <label for="date">Due date:</label>
-         <input type="date">
+         <input type="date" id="date">
          <div id="btn-form">
          <button type="submit" class="form-buttons" id="new-task">Add</button>
          <button type="button" class ="form-buttons" id="cancel">Cancel</button>
@@ -49,7 +50,7 @@
          <label for="detailsEdit">Details:</label>
          <input type="text" id="detailsEdit">
          <label for="date">Due date:</label>
-         <input type="date">
+         <input type="date" id="dateEdit">
          <div id="btn-form-edit">
          <button type="submit" class="form-buttons" id="edit-task-btn">Edit</button>
          <button type="button" class ="form-buttons" id="edit-cancel">Cancel</button>
