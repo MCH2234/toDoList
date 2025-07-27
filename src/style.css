@@ -1,0 +1,190 @@
+html{
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding: 0;}
+    
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#menu{
+    gap:10px;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(124, 142, 129);
+    padding-top:100px;
+    padding-left: 30px;
+    padding-right:50px;
+
+}
+
+#main-container{
+    display:flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#container{
+    background-color:rgb(38, 46, 45);
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    flex-grow: 1;
+
+}
+
+.btn{
+    width:100px;
+    border-radius: 20px;
+    background-color: rgb(124, 142, 129);
+    text-align: center;
+    border-bottom: 1px solid black;
+    color:rgb(38, 46, 45);
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(187, 184, 184);
+}
+
+#add{
+    margin-bottom: 30px;
+}
+
+#addt{
+    background-color: white;
+    border-color: white;
+    padding-left: 50px;
+    justify-self: center;
+    visibility:hidden;
+
+}
+
+#title{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#form-container{
+display: flex;
+flex-direction: column;
+}
+
+#edit-container{
+display: flex;
+flex-direction: column;
+}
+
+#btn-form{
+    display:flex;
+ justify-content: center;
+    gap: 30px;
+    margin-bottom:15px;
+    margin-top:15px;;
+}
+
+#btn-form-edit{
+    display:flex;
+ justify-content: center;
+    gap: 30px;
+    margin-bottom:15px;
+    margin-top:15px;;
+}
+#tasks{
+    display:flex;
+    flex-direction: column;
+}
+
+.form-buttons{
+    width: 80px;
+}
+
+ul{
+    display: flex;
+    gap:10px;
+}
+
+li{
+flex-grow:1;
+border-radius: 20px;
+border:2px solid white;
+padding:10px;
+}
+
+.title-details{
+
+    margin-right:auto;
+}
+
+.taskTitles{
+    font-size: 18px;
+}
+
+.taskDetails{
+    font-size: 14px;
+}
+
+#allProj{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#new-projects{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#proj-buttons{
+    align-self:center;
+}
+
+.pro{
+    display: flex;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.divBtns{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+
+}
+
+.divBtns:hover{
+    background-color: gray;
+}
+
+.flex{
+    display:flex;
+}
+
+.datee{
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.pro:hover{
+    background-color:ghostwhite;
+}
+
+.title-proj{
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}

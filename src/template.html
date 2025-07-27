@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div id="main-container">
+<div id="menu">
+    <div class="btn" id="add">New Project</div>
+    <div class="btn" id="all-tasks">All Tasks</div>
+    <div class="btn" id="today">Today</div>
+    <div class="btn" id="week">Week</div>
+    <div class="btn" id="important">Important</div>
+    <div id="allProj">
+        <form id="new-projects">
+            <input type="text" placeholder="Enter Project Name" id="name-new-project">
+            <div id="proj-buttons">
+            <button type="submit" id="green">Add</button>
+            <button id="red">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="container">
+    <div id="title">Tasks</div>
+    <ul id="tasks"></ul>
+    <form id="add-task">
+        <div id="form-container">
+         <label for="titlet">Title:</label>
+         <input type="text" id="titlet">
+         <label for="details">Details:</label>
+         <input type="text" id="details">
+         <label for="date">Due date:</label>
+         <input type="date" id="date">
+         <div id="btn-form">
+         <button type="submit" class="form-buttons" id="new-task">Add</button>
+         <button type="button" class ="form-buttons" id="cancel">Cancel</button>
+         </div>
+         </div>
+    </form>
+    <form id="edit-task">
+        <div id="edit-container">
+         <label for="titleEdit">Title:</label>
+         <input type="text" id="titleEdit">
+         <label for="detailsEdit">Details:</label>
+         <input type="text" id="detailsEdit">
+         <label for="date">Due date:</label>
+         <input type="date" id="dateEdit">
+         <div id="btn-form-edit">
+         <button type="submit" class="form-buttons" id="edit-task-btn">Edit</button>
+         <button type="button" class ="form-buttons" id="edit-cancel">Cancel</button>
+         </div>
+         </div>
+    </form>
+    <button id="addt">Add Task</button>
+</div>
+</div>
+</body>
+</html>
